@@ -2,8 +2,8 @@ from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse_lazy
 from django.views import generic
 
-from .forms import TaskForm
-from .models import Tag, Task
+from todo.forms import TaskForm
+from todo.models import Tag, Task
 
 
 class TaskListView(generic.ListView):
